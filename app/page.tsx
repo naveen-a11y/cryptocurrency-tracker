@@ -1,3 +1,5 @@
+export const revalidate = 60; // revalidate the data at most every minute
+
 import { getAllCryptoCurrencies } from "@/utils/services";
 import { CurrencyItem } from "@/types";
 
